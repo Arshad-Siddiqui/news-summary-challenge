@@ -6,10 +6,8 @@ export default class NewsModel {
     this.news = []
   }
 
-  setNews(data: NewsData[]) {
-    data.forEach(news => {
-
-    })
+  setNews(newsData: NewsData[]) {
+    this.news = newsData.map(data => new News(data))
   }
 
   addNews (news: NewsData) {
