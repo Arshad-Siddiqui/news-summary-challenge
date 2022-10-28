@@ -1,2 +1,3 @@
 /node_modules/
 /src/guardianApiKey.ts
+/dist/guardianApiKey.js
