@@ -25,7 +25,7 @@
       var guardianApiKey_1 = __importDefault(require_guardianApiKey());
       var NewsClient = class {
         getAllHeadlines(callBack) {
-          fetch("https://content.guardianapis.com/search?api-key=" + guardianApiKey_1.default).then((data) => data.json()).then((data) => callBack(data));
+          fetch("https://content.guardianapis.com/search?api-key=" + guardianApiKey_1.default).then((data) => data.json()).then((data) => data.response.results).then((data) => callBack(data));
         }
       };
       exports.default = NewsClient;

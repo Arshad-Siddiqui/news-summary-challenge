@@ -8,6 +8,7 @@ class NewsClient {
     getAllHeadlines(callBack) {
         fetch('https://content.guardianapis.com/search?api-key=' + guardianApiKey_1.default)
             .then(data => data.json())
+            .then(data => data.response.results)
             .then(data => callBack(data));
     }
 }
