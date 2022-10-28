@@ -12,4 +12,15 @@
 - Should scale for mobile devices (Maybe mobile first design)
 - Should be animations
 
+# Random notes
+## Class Signiature
+```Typescript
+class NewsModel {
+  constructor() {
+    this.news = []
+  }
+  
+  setNews() {}
 
+}
+```
