@@ -1,10 +1,23 @@
-export default class newsModel {
-  addNews () {
+import News from './news'
+
+export default class NewsModel {
+  news: News[];
+  constructor() {
+    this.news = []
+  }
+
+  setNews(data: NewsData[]) {
+    data.forEach(news => {
+
+    })
+  }
+
+  addNews (news: NewsData) {
 
   }
 
-  setNews () {
-
+  getNews() {
+    return this.news;
   }
 }
 

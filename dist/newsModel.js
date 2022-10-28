@@ -1,9 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class newsModel {
-    addNews() {
+class NewsModel {
+    constructor() {
+        this.news = [];
     }
-    setNews() {
+    setNews(data) {
+        data.forEach(news => {
+        });
+    }
+    addNews(news) {
+    }
+    getNews() {
+        return this.news;
     }
 }
-exports.default = newsModel;
+exports.default = NewsModel;
