@@ -40,3 +40,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Here I would some some card stuff.
+.news-container {
+  
+}
+*/
+
+/* Notes for the future: I want the content to have a max width. Perhaps max
+  4 articles per row. Minimum 1 for mobile compatability. The search bar should pop
+  up when the search button is pressed. Pressing the search button again should hide it.
+
+  First thing when getting back is to finish the searchClient class and then work on search view
+*/
