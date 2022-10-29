@@ -11,8 +11,6 @@ class NewsModel {
     setNews(newsData) {
         this.news = newsData.map(data => new news_1.default(data));
     }
-    addNews(news) {
-    }
     getNews() {
         return this.news;
     }
