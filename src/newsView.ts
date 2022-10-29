@@ -26,6 +26,10 @@ export default class NewsView {
       let newsEl = document.createElement('div');
       newsEl.className = 'news-container'
       // some cool stuff to present!
+
+      let image = document.createElement('img')
+      image.src = news.thumbnail;
+
       let heading = document.createElement('h2')
       heading.textContent = news.webTitle;
 
@@ -33,6 +37,7 @@ export default class NewsView {
       link.href = news.webUrl
       link.textContent = 'Lets go check it out!'
 
+      newsEl.append(image)
       newsEl.append(heading)
       newsEl.append(link)
 

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const guardianApiKey_1 = __importDefault(require("./guardianApiKey"));
 class NewsClient {
     getAllHeadlines(callBack) {
-        fetch('https://content.guardianapis.com/search?api-key=' + guardianApiKey_1.default)
+        fetch('https://content.guardianapis.com/search?api-key=' + guardianApiKey_1.default + '&show-fields=thumbnail')
             .then(data => data.json())
             .then(data => data.response.results)
             .then(data => callBack(data));

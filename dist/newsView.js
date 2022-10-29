@@ -16,11 +16,14 @@ class NewsView {
         this.model.getNews().forEach((news) => {
             let newsEl = document.createElement('div');
             newsEl.className = 'news-container';
+            let image = document.createElement('img');
+            image.src = news.thumbnail;
             let heading = document.createElement('h2');
             heading.textContent = news.webTitle;
             let link = document.createElement('a');
             link.href = news.webUrl;
             link.textContent = 'Lets go check it out!';
+            newsEl.append(image);
             newsEl.append(heading);
             newsEl.append(link);
             if (this.mainContainerEl === null)
