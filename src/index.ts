@@ -7,4 +7,5 @@ let newsClient = new NewsClient()
 
 let newsView = new NewsView(newsModel, newsClient);
 
-newsView.displayNewsFromApi();
+// Below commented out to stop using the API as I build other parts of the app.
+// newsView.displayNewsFromApi();

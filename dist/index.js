@@ -9,4 +9,3 @@ const newsView_1 = __importDefault(require("./newsView"));
 let newsModel = new newsModel_1.default();
 let newsClient = new newsClient_1.default();
 let newsView = new newsView_1.default(newsModel, newsClient);
-newsView.displayNewsFromApi();
