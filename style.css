@@ -12,17 +12,27 @@ header {
 }
 
 h1 {
-  padding: 10px;
+  padding: 3px;
+}
+
+.logo {
+  font-size: 32px;
+  padding: 0px;
+  margin-left: 5px;
 }
 
 nav h3 {
-  padding: 10px;
+  padding: auto;
+  font-size: 29px;
+}
+
+.display-search-button {
+  margin-right: 3px;
 }
 
 .display-search-button:hover {
   background-color: #A8D8ED;
   color: #00466B;
-  margin-right: 3px;
 }
 
 nav {
