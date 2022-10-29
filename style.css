@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #00466B;
+  color: white;
+  margin: 0px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+nav h3 {
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
