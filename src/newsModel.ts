@@ -10,10 +10,6 @@ export default class NewsModel {
     this.news = newsData.map(data => new News(data))
   }
 
-  addNews (news: NewsData) {
-
-  }
-
   getNews() {
     return this.news;
   }
