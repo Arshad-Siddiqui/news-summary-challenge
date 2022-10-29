@@ -1,6 +1,10 @@
 import NewsClient from './newsClient'
+import NewsModel from './newsModel'
+import NewsView from './newsView'
 
-const newsClient = new NewsClient()
-newsClient.getAllHeadlines((news: any) => {
-  console.log(news)
-})
+let newsModel = new NewsModel()
+let newsClient = new NewsClient()
+
+let newsView = new NewsView(newsModel, newsClient);
+
+newsView.displayNewsFromApi();
