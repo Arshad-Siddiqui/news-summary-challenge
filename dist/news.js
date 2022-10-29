@@ -9,6 +9,7 @@ class News {
         this.webTitle = data.webTitle;
         this.webUrl = data.webUrl;
         this.apiUrl = data.apiUrl;
+        this.thumbnail = data.fields.thumbnail;
     }
 }
 exports.default = News;

@@ -8,6 +8,7 @@ export default class News {
   webTitle: string;
   webUrl: string;
   apiUrl: string;
+  thumbnail: string;
   constructor(data: NewsData) {
     this.id = data.id;
     this.type = data.type;
@@ -16,6 +17,7 @@ export default class News {
     this.webTitle = data.webTitle;
     this.webUrl = data.webUrl;
     this.apiUrl = data.apiUrl;
+    this.thumbnail = data.fields.thumbnail;
   }
 }
 

@@ -12,7 +12,7 @@ describe("NewsClient", () => {
       let newsClient = new NewsClient()
       newsClient.getAllHeadlines((data) => {
         expect(data.length).toBe(10)
-        expect(data[0].sectionId).toEqual('us-news')
+        expect(data[0].sectionId).toEqual('football')
       })
     });
   });
