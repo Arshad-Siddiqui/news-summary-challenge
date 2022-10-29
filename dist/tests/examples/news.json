@@ -1,0 +1,133 @@
+{
+	"response": {
+		"status": "ok",
+		"userTier": "developer",
+		"total": 2383054,
+		"startIndex": 1,
+		"pageSize": 10,
+		"currentPage": 1,
+		"pages": 238306,
+		"orderBy": "newest",
+		"results": [{
+			"id": "us-news/live/2022/oct/28/democrats-obama-midterms-republicans-us-politics-live-updates",
+			"type": "liveblog",
+			"sectionId": "us-news",
+			"sectionName": "US news",
+			"webPublicationDate": "2022-10-28T17:42:29Z",
+			"webTitle": "Man who attacked speaker’s husband Paul Pelosi shouted ‘Where’s Nancy’ – live",
+			"webUrl": "https://www.theguardian.com/us-news/live/2022/oct/28/democrats-obama-midterms-republicans-us-politics-live-updates",
+			"apiUrl": "https://content.guardianapis.com/us-news/live/2022/oct/28/democrats-obama-midterms-republicans-us-politics-live-updates",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}, {
+			"id": "us-news/2022/oct/28/paul-pelosi-nancy-pelosi-attack-san-francisco-home",
+			"type": "article",
+			"sectionId": "us-news",
+			"sectionName": "US news",
+			"webPublicationDate": "2022-10-28T17:36:50Z",
+			"webTitle": "Paul Pelosi, husband of Nancy Pelosi, in hospital after being attacked at home",
+			"webUrl": "https://www.theguardian.com/us-news/2022/oct/28/paul-pelosi-nancy-pelosi-attack-san-francisco-home",
+			"apiUrl": "https://content.guardianapis.com/us-news/2022/oct/28/paul-pelosi-nancy-pelosi-attack-san-francisco-home",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}, {
+			"id": "music/2022/oct/28/jerry-lee-lewis-obituary",
+			"type": "article",
+			"sectionId": "music",
+			"sectionName": "Music",
+			"webPublicationDate": "2022-10-28T17:33:09Z",
+			"webTitle": "Jerry Lee Lewis obituary",
+			"webUrl": "https://www.theguardian.com/music/2022/oct/28/jerry-lee-lewis-obituary",
+			"apiUrl": "https://content.guardianapis.com/music/2022/oct/28/jerry-lee-lewis-obituary",
+			"isHosted": false,
+			"pillarId": "pillar/arts",
+			"pillarName": "Arts"
+		}, {
+			"id": "commentisfree/2022/oct/28/the-guardian-view-on-korean-soft-power-harder-than-it-looks",
+			"type": "article",
+			"sectionId": "commentisfree",
+			"sectionName": "Opinion",
+			"webPublicationDate": "2022-10-28T17:25:34Z",
+			"webTitle": "The Guardian view on Korean soft power: harder than it looks | Editorial",
+			"webUrl": "https://www.theguardian.com/commentisfree/2022/oct/28/the-guardian-view-on-korean-soft-power-harder-than-it-looks",
+			"apiUrl": "https://content.guardianapis.com/commentisfree/2022/oct/28/the-guardian-view-on-korean-soft-power-harder-than-it-looks",
+			"isHosted": false,
+			"pillarId": "pillar/opinion",
+			"pillarName": "Opinion"
+		}, {
+			"id": "business/live/2022/oct/28/elon-musk-bought-twitter-natwest-profits-economy-inflation-business-live",
+			"type": "liveblog",
+			"sectionId": "business",
+			"sectionName": "Business",
+			"webPublicationDate": "2022-10-28T17:16:25Z",
+			"webTitle": "Twitter shares taken off stock exchange after Elon Musk seals $44bn takeover – business live",
+			"webUrl": "https://www.theguardian.com/business/live/2022/oct/28/elon-musk-bought-twitter-natwest-profits-economy-inflation-business-live",
+			"apiUrl": "https://content.guardianapis.com/business/live/2022/oct/28/elon-musk-bought-twitter-natwest-profits-economy-inflation-business-live",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}, {
+			"id": "football/2022/oct/28/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+			"type": "article",
+			"sectionId": "football",
+			"sectionName": "Football",
+			"webPublicationDate": "2022-10-28T17:13:23Z",
+			"webTitle": " Premier League team news: predicted lineups for the weekend action",
+			"webUrl": "https://www.theguardian.com/football/2022/oct/28/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+			"apiUrl": "https://content.guardianapis.com/football/2022/oct/28/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+			"isHosted": false,
+			"pillarId": "pillar/sport",
+			"pillarName": "Sport"
+		}, {
+			"id": "world/live/2022/oct/28/russia-ukraine-war-live-news-updates-joe-biden-vladimir-putin-russian-nuclear-weapons-dirty-bomb-claim",
+			"type": "liveblog",
+			"sectionId": "world",
+			"sectionName": "World news",
+			"webPublicationDate": "2022-10-28T17:08:40Z",
+			"webTitle": "Russia-Ukraine war live: Russia has fired 4,500 missiles on Ukraine since invasion, says Zelenskiy; more than 300 drones ‘shot down’",
+			"webUrl": "https://www.theguardian.com/world/live/2022/oct/28/russia-ukraine-war-live-news-updates-joe-biden-vladimir-putin-russian-nuclear-weapons-dirty-bomb-claim",
+			"apiUrl": "https://content.guardianapis.com/world/live/2022/oct/28/russia-ukraine-war-live-news-updates-joe-biden-vladimir-putin-russian-nuclear-weapons-dirty-bomb-claim",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}, {
+			"id": "business/2022/oct/28/ksi-and-logan-paul-aim-to-take-on-coca-cola-and-pepsi-with-new-energy-drink",
+			"type": "article",
+			"sectionId": "business",
+			"sectionName": "Business",
+			"webPublicationDate": "2022-10-28T17:04:26Z",
+			"webTitle": "Prime market: YouTube star Logan Paul’s £2 energy drink listed on eBay for £10k",
+			"webUrl": "https://www.theguardian.com/business/2022/oct/28/ksi-and-logan-paul-aim-to-take-on-coca-cola-and-pepsi-with-new-energy-drink",
+			"apiUrl": "https://content.guardianapis.com/business/2022/oct/28/ksi-and-logan-paul-aim-to-take-on-coca-cola-and-pepsi-with-new-energy-drink",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}, {
+			"id": "commentisfree/2022/oct/28/northern-ireland-election-brexit-rishi-sunak-britain-protocol",
+			"type": "article",
+			"sectionId": "commentisfree",
+			"sectionName": "Opinion",
+			"webPublicationDate": "2022-10-28T17:04:19Z",
+			"webTitle": "Northern Ireland faces another pointless election thanks to London’s Brexit mess | Fintan O’Toole",
+			"webUrl": "https://www.theguardian.com/commentisfree/2022/oct/28/northern-ireland-election-brexit-rishi-sunak-britain-protocol",
+			"apiUrl": "https://content.guardianapis.com/commentisfree/2022/oct/28/northern-ireland-election-brexit-rishi-sunak-britain-protocol",
+			"isHosted": false,
+			"pillarId": "pillar/opinion",
+			"pillarName": "Opinion"
+		}, {
+			"id": "world/2022/oct/28/we-need-to-push-hair-discrimination-fight-moves-to-uk-workplaces",
+			"type": "article",
+			"sectionId": "world",
+			"sectionName": "World news",
+			"webPublicationDate": "2022-10-28T17:03:32Z",
+			"webTitle": "‘We need to push’: hair discrimination fight moves to UK workplaces",
+			"webUrl": "https://www.theguardian.com/world/2022/oct/28/we-need-to-push-hair-discrimination-fight-moves-to-uk-workplaces",
+			"apiUrl": "https://content.guardianapis.com/world/2022/oct/28/we-need-to-push-hair-discrimination-fight-moves-to-uk-workplaces",
+			"isHosted": false,
+			"pillarId": "pillar/news",
+			"pillarName": "News"
+		}]
+	}
+}
