@@ -132,6 +132,7 @@
       var newsModel = new newsModel_1.default();
       var newsClient = new newsClient_1.default();
       var newsView = new newsView_1.default(newsModel, newsClient);
+      newsView.displayNewsFromApi();
     }
   });
   require_dist();

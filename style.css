@@ -7,12 +7,12 @@ body {
 header {
   background-color: #00466B;
   color: white;
-  margin: 0px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
   padding: 3px;
+  margin: 0px;
 }
 
 .logo {
@@ -47,7 +47,7 @@ nav {
 }
 */
 
-/* Notes for the future: I want the content to have a max width. Perhaps max
+/* TODO: I want the content to have a max width. Perhaps max
   4 articles per row. Minimum 1 for mobile compatability. The search bar should pop
   up when the search button is pressed. Pressing the search button again should hide it.
 
