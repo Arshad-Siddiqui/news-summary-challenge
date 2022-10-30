@@ -27,7 +27,7 @@ export interface NewsData {
   isHosted: boolean;
   pillarId: string;
   pillarName: string;
-  fields: {
+  fields: undefined | {
     thumbnail: string;
   }
 }

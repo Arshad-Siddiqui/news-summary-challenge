@@ -46,6 +46,9 @@
           this.webTitle = data.webTitle;
           this.webUrl = data.webUrl;
           this.apiUrl = data.apiUrl;
+          if (data.fields == void 0) {
+            data.fields = { thumbnail: "https://media.guim.co.uk/45e7a9a3f28116c21ca07da183c7c4a9940c17af/0_44_8256_4954/500.jpg" };
+          }
           this.thumbnail = data.fields.thumbnail;
         }
       };
