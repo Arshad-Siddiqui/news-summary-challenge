@@ -8,6 +8,7 @@ header {
   background-color: #00466B;
   color: white;
   font-family: 'Times New Roman', Times, serif;
+  width: 100%;
 }
 
 h1 {
@@ -41,11 +42,16 @@ nav {
   align-items: center;
 }
 
-/* Here I would some some card stuff.
 .news-container {
-  
+  max-width: 500px;
+  margin: 20px;  
 }
-*/
+
+.headlines-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /* TODO: I want the content to have a max width. Perhaps max
   4 articles per row. Minimum 1 for mobile compatability. The search bar should pop
