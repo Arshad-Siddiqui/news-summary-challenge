@@ -53,6 +53,17 @@ nav {
   flex-wrap: wrap;
 }
 
+main a {
+  color: black;
+}
+
+main a:hover {
+  color: #A8D8ED
+}
+
+main a:active {
+  color: #00466B;
+}
 /* TODO: I want the content to have a max width. Perhaps max
   4 articles per row. Minimum 1 for mobile compatability. The search bar should pop
   up when the search button is pressed. Pressing the search button again should hide it.
